@@ -1,0 +1,28 @@
+# Application Configuration
+app:
+  name: LLM-RAG Online Course
+  version: 1.0.0
+
+# Server Configuration
+server:
+  host: 0.0.0.0
+  port: 80
+
+# Database Configuration
+database:
+  host: localhost
+  port: 5432
+  name: llm_rag_db
+  user: user
+  password: password
+
+# Model Configuration
+model:
+  name: gpt-3.5-turbo
+  max_tokens: 100
+  temperature: 0.7
+
+# Logging Configuration
+logging:
+  level: INFO
+  file: logs/app.log
